@@ -1,0 +1,101 @@
+
+
+#sekcaj2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+#napis{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#naglowek1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+#button{
+    float: right;
+   background-color: aqua;
+   color: wheat;
+   width: 20%;
+   height: 40px;
+   border: none;
+}
+#napis2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+   justify-content: space-between;
+
+}
+#ikonki{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    width: 8%;
+    height: 10px;
+}
+#ikonki1{
+    width: 40%;
+    height: 20px;
+}
+#obraz{
+    display: flex;
+    width: 30%;
+    height: 300px;
+    border-right-color: black;
+    border-right: 10px;
+}
+#button2{
+    background: aqua;
+    color: white;
+    width: 40%;
+    height: 40px;
+}
+#sekcja{
+    display: flex;
+    justify-content: center;
+}
+#sekcja div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#linia{
+    border-left: 50px ;
+    border-right: 50px ;
+}
+#sekcja3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+
+    
+}
+#napis3{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+}
+#napis4{
+    display: flex;
+
+}
