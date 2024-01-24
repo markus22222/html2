@@ -3,33 +3,37 @@
 #sekcaj2{
 
     display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
+    flex-direction: column;
     
 }
 #napis{
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     margin-left: 15px;
     font-size: 30px;
     margin-top: 20px;
+
 }
 #naglowek1{
     
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    
+    height: 20px;
+
+
     
 }
 #button{
-    float: right;
+   position: absolute;
+   left: 77%;
+   top: 7%;
    background-color: aqua;
    color: wheat;
    width: 20%;
    height: 40px;
    border: none;
+   
 }
 #napis2{
     display: flex;
@@ -54,10 +58,11 @@
 }
 #obraz{
     display: flex;
-    width: 30%;
+    width: 20%;
     height: 300px;
     border-right-color: black;
     border-right: 10px;
+    border-left: 10px;
 }
 #button2{
     background: aqua;
@@ -83,19 +88,24 @@
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    height: 100px;
+    height: 200px;
 
     
 }
 #napis3{
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 350px;
     color: white;
     font-size: 30px;
 
 }
 #napis4{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
 
 }
